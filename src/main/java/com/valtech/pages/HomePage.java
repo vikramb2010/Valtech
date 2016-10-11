@@ -59,9 +59,7 @@ public class HomePage {
 	 * @param waitForXpath is XPath of the element present in the next page .
 	 */
 	protected static void clickTab(String tabXpath, String waitForXpath){
-		// Click Tab
-		driver.findElement(By.xpath(tabXpath)).click();
-
+			driver.findElement(By.xpath(tabXpath)).click();
 		// Wait for tab to load
 		long StartTime = System.currentTimeMillis();
 		long CurTime = System.currentTimeMillis();
@@ -82,7 +80,7 @@ public class HomePage {
 	}
 	@AfterTest
 	public void tearDown() {
-	//    driver.quit();
+		driver.quit();
 	    System.out.println("Valtech website is closed");
     }
 }

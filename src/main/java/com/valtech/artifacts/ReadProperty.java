@@ -12,5 +12,5 @@ public class ReadProperty {
 	public String cases_heading = ".//*[@id='container']/header/h1";
 	public String services_heading = ".//*[@id='container']/section/header/h1";
 	public String jobs_heading = ".//*[@id='container']/div[1]/h1";
-	public static String login = "loginLink";
+	public static String contact = ".//*[@id='contacticon']/div/div/div[1]/i";
 }

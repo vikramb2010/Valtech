@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21197" started-at="2016-10-10T23:13:18Z" finished-at="2016-10-10T23:13:39Z">
+  <suite name="Default suite" duration-ms="26885" started-at="2016-10-11T19:34:35Z" finished-at="2016-10-11T19:35:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21197" started-at="2016-10-10T23:13:18Z" finished-at="2016-10-10T23:13:39Z">
+    <test name="Default test" duration-ms="26885" started-at="2016-10-11T19:34:35Z" finished-at="2016-10-11T19:35:02Z">
       <class name="com.valtech.test.ContactsList">
-        <test-method status="PASS" signature="Initiation()[pri:0, instance:com.valtech.test.ContactsList@6ad5c04e]" name="Initiation" is-config="true" duration-ms="17321" started-at="2016-10-11T00:13:18Z" finished-at="2016-10-11T00:13:36Z">
+        <test-method status="PASS" signature="Initiation()[pri:0, instance:com.valtech.test.ContactsList@6ad5c04e]" name="Initiation" is-config="true" duration-ms="20349" started-at="2016-10-11T20:34:35Z" finished-at="2016-10-11T20:34:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initiation -->
-        <test-method status="PASS" signature="contactsList()[pri:0, instance:com.valtech.test.ContactsList@6ad5c04e]" name="contactsList" duration-ms="3838" started-at="2016-10-11T00:13:36Z" finished-at="2016-10-11T00:13:39Z">
+        <test-method status="PASS" signature="contactsList()[pri:0, instance:com.valtech.test.ContactsList@6ad5c04e]" name="contactsList" duration-ms="3495" started-at="2016-10-11T20:34:55Z" finished-at="2016-10-11T20:34:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsList -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.valtech.test.ContactsList@6ad5c04e]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-10-11T00:13:39Z" finished-at="2016-10-11T00:13:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.valtech.test.ContactsList@6ad5c04e]" name="tearDown" is-config="true" duration-ms="3009" started-at="2016-10-11T20:34:59Z" finished-at="2016-10-11T20:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
